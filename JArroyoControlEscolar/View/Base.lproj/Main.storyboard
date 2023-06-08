@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nrm-G9-B9p">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kbx-Np-HmI">
+            <objects>
+                <tabBarController id="nrm-G9-B9p" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7PY-Lu-MnV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4K5-6H-vb2" kind="relationship" relationship="viewControllers" id="nJJ-Yk-kl8"/>
+                        <segue destination="rwC-pd-M0G" kind="relationship" relationship="viewControllers" id="PHF-Ze-Bot"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3w-8W-CNa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1602" y="107"/>
+        </scene>
+        <!--Alumno-->
+        <scene sceneID="YPI-Lv-jhT">
+            <objects>
+                <navigationController id="4K5-6H-vb2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Alumno" image="person.3.fill" catalog="system" id="EEB-yf-ugI"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EiG-zu-uTi">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0e6-bt-v6V" kind="relationship" relationship="rootViewController" id="a0E-n5-hUQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Rb-Iy-TOH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-819" y="-254"/>
+        </scene>
+        <!--Materia Controller-->
+        <scene sceneID="u2m-ap-Wfw">
+            <objects>
+                <viewController id="WjA-hs-JmN" customClass="MateriaController" customModule="JArroyoControlEscolar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cAr-bb-aAY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8Nx-cl-EgR">
+                                <rect key="frame" x="0.0" y="103" width="393" height="656"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4mi-H3-96m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4mi-H3-96m" firstAttribute="bottom" secondItem="8Nx-cl-EgR" secondAttribute="bottom" constant="10" id="1i8-oP-yax"/>
+                            <constraint firstItem="8Nx-cl-EgR" firstAttribute="top" secondItem="4mi-H3-96m" secondAttribute="top" id="8xO-ym-ztc"/>
+                            <constraint firstItem="8Nx-cl-EgR" firstAttribute="leading" secondItem="4mi-H3-96m" secondAttribute="leading" id="aJH-qu-O8m"/>
+                            <constraint firstItem="4mi-H3-96m" firstAttribute="trailing" secondItem="8Nx-cl-EgR" secondAttribute="trailing" id="hNv-EP-Dsn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mSd-3I-g7D">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="4DB-AR-SC8">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="MSA-ig-xzi">
+                                <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="note.text.badge.plus" catalog="system"/>
+                            </button>
+                            <connections>
+                                <segue destination="8SV-GZ-OHC" kind="show" id="7wV-yb-rNb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="8Nx-cl-EgR" id="USk-l8-FDM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zI4-0a-03p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45" y="468"/>
+        </scene>
+        <!--Formulario Alumno Controller-->
+        <scene sceneID="qcW-if-dBp">
+            <objects>
+                <viewController id="g8B-32-2xp" customClass="FormularioAlumnoController" customModule="JArroyoControlEscolar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y09-A8-LLd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lMl-JD-IJ2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ye3-GS-nes"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q69-1Y-kZ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842" y="-254"/>
+        </scene>
+        <!--Formulario Materia Controller-->
+        <scene sceneID="Axr-Jf-XkB">
+            <objects>
+                <viewController id="8SV-GZ-OHC" customClass="FormularioMateriaController" customModule="JArroyoControlEscolar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QrS-ht-Oh3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jhh-ir-zI6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kOR-qb-vom"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZ2-0p-D5t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842" y="468"/>
+        </scene>
+        <!--Meteria-->
+        <scene sceneID="eW5-d3-t7L">
+            <objects>
+                <navigationController id="rwC-pd-M0G" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Meteria" image="text.book.closed.fill" catalog="system" id="rTI-d2-QcC"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qKt-Pc-8jN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WjA-hs-JmN" kind="relationship" relationship="rootViewController" id="REd-zn-5Qk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rr8-VJ-BRx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-819" y="468"/>
+        </scene>
+        <!--Alumno Controller-->
+        <scene sceneID="siT-wr-6ZN">
+            <objects>
+                <tableViewController id="0e6-bt-v6V" customClass="AlumnoController" customModule="JArroyoControlEscolar" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="83R-WH-Ipl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="alumnoCell" id="XUd-sy-7xd">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XUd-sy-7xd" id="4qT-gH-5Me">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="0e6-bt-v6V" id="tNt-bR-qxT"/>
+                            <outlet property="delegate" destination="0e6-bt-v6V" id="2x2-hw-qtP"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="fsc-is-4jO">
+                        <barButtonItem key="rightBarButtonItem" image="person.badge.plus" catalog="system" style="plain" id="hHy-JE-31E">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="13S-s7-yWM">
+                                <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="person.badge.plus" catalog="system"/>
+                            </button>
+                            <connections>
+                                <segue destination="g8B-32-2xp" kind="show" id="PYL-DC-xf5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kpe-kl-JrU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45" y="-254"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="note.text.badge.plus" catalog="system" width="128" height="108"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <image name="person.badge.plus" catalog="system" width="128" height="125"/>
+        <image name="text.book.closed.fill" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
