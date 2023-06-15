@@ -1,15 +1,15 @@
 //
-//  MateriaCell.swift
+//  MateriasAsignadasCell.swift
 //  JArroyoControlEscolar
 //
-//  Created by MacBookMBP1 on 06/06/23.
+//  Created by MacBookMBP1 on 09/06/23.
 //
-
-import UIKit
 import SwipeCellKit
+import UIKit
 
-class MateriaCell: SwipeTableViewCell {
-
+class MateriasAsignadasCell: SwipeTableViewCell {
+    
+    
     @IBOutlet weak var lblNombre: UILabel!
     
     @IBOutlet weak var lblCosto: UILabel!

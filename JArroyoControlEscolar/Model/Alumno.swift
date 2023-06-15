@@ -9,12 +9,12 @@ import Foundation
 
 struct Alumno : Codable{
     var IdAlumno : Int
-    var Nombre : String
-    var ApellidoPaterno : String
-    var ApellidoMaterno : String
-    var FechaNacimiento : String
-    var Genero : String
-    var Telefono : String
+    var Nombre : String?
+    var ApellidoPaterno : String?
+    var ApellidoMaterno : String?
+    var FechaNacimiento : String?
+    var Genero : String?
+    var Telefono : String?
     
     init(){
         self.IdAlumno = 0

@@ -25,6 +25,16 @@
 		16A9C61C2A2FB05E003288BB /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A9C61B2A2FB05E003288BB /* Alumno.swift */; };
 		16A9C61E2A2FB312003288BB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A9C61D2A2FB312003288BB /* Result.swift */; };
 		16A9C6202A2FB31B003288BB /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A9C61F2A2FB31B003288BB /* Materia.swift */; };
+		16AE06992A379890007AEB1D /* MateriasNoAsigndasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE06982A379890007AEB1D /* MateriasNoAsigndasController.swift */; };
+		16DA19092A33A242008A9E0C /* AlumnoMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA19082A33A242008A9E0C /* AlumnoMateriaController.swift */; };
+		16DA190C2A33EBD6008A9E0C /* MateriasNoAsignadasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA190A2A33EBD6008A9E0C /* MateriasNoAsignadasCell.swift */; };
+		16DA190D2A33EBD6008A9E0C /* MateriasNoAsignadasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DA190B2A33EBD6008A9E0C /* MateriasNoAsignadasCell.xib */; };
+		16DA19102A33ECBE008A9E0C /* MateriasAsignadasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA190E2A33ECBE008A9E0C /* MateriasAsignadasCell.swift */; };
+		16DA19112A33ECBE008A9E0C /* MateriasAsignadasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DA190F2A33ECBE008A9E0C /* MateriasAsignadasCell.xib */; };
+		16DA19132A33ECE7008A9E0C /* MateriasAsignadasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA19122A33ECE7008A9E0C /* MateriasAsignadasController.swift */; };
+		16DA19152A33EE92008A9E0C /* AlumnoMateria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA19142A33EE92008A9E0C /* AlumnoMateria.swift */; };
+		16DA19182A33F17A008A9E0C /* AlumnoMateriaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA19172A33F17A008A9E0C /* AlumnoMateriaViewModel.swift */; };
+		AC3543F59ED851193FF8B36A /* Pods_JArroyoControlEscolar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBC29D68624A14B526DAD0C /* Pods_JArroyoControlEscolar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +58,18 @@
 		16A9C61B2A2FB05E003288BB /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 		16A9C61D2A2FB312003288BB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		16A9C61F2A2FB31B003288BB /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
+		16AE06982A379890007AEB1D /* MateriasNoAsigndasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriasNoAsigndasController.swift; sourceTree = "<group>"; };
+		16DA19082A33A242008A9E0C /* AlumnoMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoMateriaController.swift; sourceTree = "<group>"; };
+		16DA190A2A33EBD6008A9E0C /* MateriasNoAsignadasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriasNoAsignadasCell.swift; sourceTree = "<group>"; };
+		16DA190B2A33EBD6008A9E0C /* MateriasNoAsignadasCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MateriasNoAsignadasCell.xib; sourceTree = "<group>"; };
+		16DA190E2A33ECBE008A9E0C /* MateriasAsignadasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriasAsignadasCell.swift; sourceTree = "<group>"; };
+		16DA190F2A33ECBE008A9E0C /* MateriasAsignadasCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MateriasAsignadasCell.xib; sourceTree = "<group>"; };
+		16DA19122A33ECE7008A9E0C /* MateriasAsignadasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriasAsignadasController.swift; sourceTree = "<group>"; };
+		16DA19142A33EE92008A9E0C /* AlumnoMateria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoMateria.swift; sourceTree = "<group>"; };
+		16DA19172A33F17A008A9E0C /* AlumnoMateriaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoMateriaViewModel.swift; sourceTree = "<group>"; };
+		24BD7BE0D9F5E90B71985F99 /* Pods-JArroyoControlEscolar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JArroyoControlEscolar.debug.xcconfig"; path = "Target Support Files/Pods-JArroyoControlEscolar/Pods-JArroyoControlEscolar.debug.xcconfig"; sourceTree = "<group>"; };
+		6B93E3D70C94FFA1FC821A4C /* Pods-JArroyoControlEscolar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JArroyoControlEscolar.release.xcconfig"; path = "Target Support Files/Pods-JArroyoControlEscolar/Pods-JArroyoControlEscolar.release.xcconfig"; sourceTree = "<group>"; };
+		ACBC29D68624A14B526DAD0C /* Pods_JArroyoControlEscolar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JArroyoControlEscolar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3543F59ED851193FF8B36A /* Pods_JArroyoControlEscolar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +123,8 @@
 			children = (
 				16A9C6032A2FAFD6003288BB /* JArroyoControlEscolar */,
 				16A9C6022A2FAFD6003288BB /* Products */,
+				D2745882449E67908166F28C /* Pods */,
+				FAAC7E3172622DB3BB588522 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +160,10 @@
 				16A952A22A2FC4600083F0EC /* AlumnoCell.xib */,
 				16A952A52A2FC4760083F0EC /* MateriaCell.swift */,
 				16A952A62A2FC4760083F0EC /* MateriaCell.xib */,
+				16DA190A2A33EBD6008A9E0C /* MateriasNoAsignadasCell.swift */,
+				16DA190B2A33EBD6008A9E0C /* MateriasNoAsignadasCell.xib */,
+				16DA190E2A33ECBE008A9E0C /* MateriasAsignadasCell.swift */,
+				16DA190F2A33ECBE008A9E0C /* MateriasAsignadasCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,6 +171,7 @@
 		16A9C6192A2FB034003288BB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				16DA19162A33F15F008A9E0C /* AlumnoMateria */,
 				164A6FBD2A2FB95F0037BB1F /* Materia */,
 				164A6FBC2A2FB9550037BB1F /* Alumno */,
 			);
@@ -154,6 +184,7 @@
 				16A9C61B2A2FB05E003288BB /* Alumno.swift */,
 				16A9C61D2A2FB312003288BB /* Result.swift */,
 				16A9C61F2A2FB31B003288BB /* Materia.swift */,
+				16DA19142A33EE92008A9E0C /* AlumnoMateria.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,10 +192,46 @@
 		16A9C6212A2FB57E003288BB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				16DA19072A33A1E0008A9E0C /* AlumnoMateria */,
 				16A952AC2A2FC7E00083F0EC /* Materia */,
 				16A952AB2A2FC7D20083F0EC /* Alumno */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		16DA19072A33A1E0008A9E0C /* AlumnoMateria */ = {
+			isa = PBXGroup;
+			children = (
+				16DA19082A33A242008A9E0C /* AlumnoMateriaController.swift */,
+				16DA19122A33ECE7008A9E0C /* MateriasAsignadasController.swift */,
+				16AE06982A379890007AEB1D /* MateriasNoAsigndasController.swift */,
+			);
+			path = AlumnoMateria;
+			sourceTree = "<group>";
+		};
+		16DA19162A33F15F008A9E0C /* AlumnoMateria */ = {
+			isa = PBXGroup;
+			children = (
+				16DA19172A33F17A008A9E0C /* AlumnoMateriaViewModel.swift */,
+			);
+			path = AlumnoMateria;
+			sourceTree = "<group>";
+		};
+		D2745882449E67908166F28C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24BD7BE0D9F5E90B71985F99 /* Pods-JArroyoControlEscolar.debug.xcconfig */,
+				6B93E3D70C94FFA1FC821A4C /* Pods-JArroyoControlEscolar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAAC7E3172622DB3BB588522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACBC29D68624A14B526DAD0C /* Pods_JArroyoControlEscolar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16A9C6152A2FAFDA003288BB /* Build configuration list for PBXNativeTarget "JArroyoControlEscolar" */;
 			buildPhases = (
+				458D7512E86F73C010CCD2AB /* [CP] Check Pods Manifest.lock */,
 				16A9C5FD2A2FAFD6003288BB /* Sources */,
 				16A9C5FE2A2FAFD6003288BB /* Frameworks */,
 				16A9C5FF2A2FAFD6003288BB /* Resources */,
+				A366B8996B51AAC2CFE65A95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,29 +298,80 @@
 				16A9C60E2A2FAFDA003288BB /* Assets.xcassets in Resources */,
 				16A952A82A2FC4760083F0EC /* MateriaCell.xib in Resources */,
 				16A9C60C2A2FAFD6003288BB /* Main.storyboard in Resources */,
+				16DA190D2A33EBD6008A9E0C /* MateriasNoAsignadasCell.xib in Resources */,
+				16DA19112A33ECBE008A9E0C /* MateriasAsignadasCell.xib in Resources */,
 				16A952A42A2FC4600083F0EC /* AlumnoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		458D7512E86F73C010CCD2AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JArroyoControlEscolar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A366B8996B51AAC2CFE65A95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JArroyoControlEscolar/Pods-JArroyoControlEscolar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JArroyoControlEscolar/Pods-JArroyoControlEscolar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JArroyoControlEscolar/Pods-JArroyoControlEscolar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16A9C5FD2A2FAFD6003288BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DA190C2A33EBD6008A9E0C /* MateriasNoAsignadasCell.swift in Sources */,
 				16A952AA2A2FC7880083F0EC /* MateriaViewModel.swift in Sources */,
+				16DA19092A33A242008A9E0C /* AlumnoMateriaController.swift in Sources */,
 				16A9C61E2A2FB312003288BB /* Result.swift in Sources */,
 				16A952982A2FC32B0083F0EC /* AlumnoViewModel.swift in Sources */,
 				16A952AE2A2FC8220083F0EC /* MateriaController.swift in Sources */,
 				16A9C6052A2FAFD6003288BB /* AppDelegate.swift in Sources */,
+				16DA19102A33ECBE008A9E0C /* MateriasAsignadasCell.swift in Sources */,
 				16A952A72A2FC4760083F0EC /* MateriaCell.swift in Sources */,
 				16A9C6072A2FAFD6003288BB /* SceneDelegate.swift in Sources */,
 				16A952A02A2FC40C0083F0EC /* FormularioMateriaController.swift in Sources */,
+				16DA19152A33EE92008A9E0C /* AlumnoMateria.swift in Sources */,
 				164A6FC12A2FC1210037BB1F /* AlumnoController.swift in Sources */,
 				16A9C61C2A2FB05E003288BB /* Alumno.swift in Sources */,
 				16A9529E2A2FC3F70083F0EC /* FormularioAlumnoController.swift in Sources */,
+				16DA19182A33F17A008A9E0C /* AlumnoMateriaViewModel.swift in Sources */,
 				16A9C6202A2FB31B003288BB /* Materia.swift in Sources */,
+				16DA19132A33ECE7008A9E0C /* MateriasAsignadasController.swift in Sources */,
+				16AE06992A379890007AEB1D /* MateriasNoAsigndasController.swift in Sources */,
 				16A952A32A2FC4600083F0EC /* AlumnoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +514,7 @@
 		};
 		16A9C6162A2FAFDA003288BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BD7BE0D9F5E90B71985F99 /* Pods-JArroyoControlEscolar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +543,7 @@
 		};
 		16A9C6172A2FAFDA003288BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B93E3D70C94FFA1FC821A4C /* Pods-JArroyoControlEscolar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

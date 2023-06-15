@@ -10,5 +10,11 @@ import Foundation
 struct Materia : Codable{
     var IdMateria : Int
     var Nombre : String
-    var Costo : Int
+    var Costo : Double
+    
+    init(){
+        self.IdMateria = 0
+        self.Nombre = ""
+        self.Costo = 0.0
+    }
 }
